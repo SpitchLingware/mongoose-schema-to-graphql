@@ -1,8 +1,9 @@
 {
   "name": "@spitchlingware/mongoose-schema-to-graphql",
-  "version": "2.8.2",
+  "version": "2.8.4",
   "description": "Auto types generator for graphQL schema, based on your existed Mongoose schema. Check GitHub for description.",
   "main": "lib/index.min.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "npm run build:dev && npm run build:prod",
     "build:dev": "NODE_ENV=development babel src/index.js --source-maps --out-file lib/index.js",

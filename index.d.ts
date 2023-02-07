@@ -1,4 +1,4 @@
-declare module 'mongoose-schema-to-graphql' {
+declare module '@spitchlingware/mongoose-schema-to-graphql' {
 
     import * as mongoose from 'mongoose';
 
