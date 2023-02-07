@@ -2,6 +2,8 @@
 [![NPM](https://img.shields.io/npm/v/mongoose-schema-to-graphql.svg)](https://www.npmjs.com/package/mongoose-schema-to-graphql)
 [![Build Status](https://travis-ci.org/sarkistlt/mongoose-schema-to-graphql.svg?branch=master)](https://travis-ci.org/sarkistlt/mongoose-schema-to-graphql)
 
+## This is a fork of https://github.com/sarkistlt/mongoose-schema-to-graphql which was abandoned.
+
 ## Use your existing Mongoose schema to generate graphQL type-definitions.
 #### Date fields supported, they get serialized to ISO date string
 #### Full support of all graphQL "Definitions" and "Scalars" besides "GraphQLFloat", because in Mongoose schema you can use only int. numbers. But you can use ```extend``` property to pass it, details below. 

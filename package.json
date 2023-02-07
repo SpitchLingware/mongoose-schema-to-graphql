@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-schema-to-graphql",
-  "version": "2.8.1",
+  "name": "@spitchlingware/mongoose-schema-to-graphql",
+  "version": "2.8.2",
   "description": "Auto types generator for graphQL schema, based on your existed Mongoose schema. Check GitHub for description.",
   "main": "lib/index.min.js",
   "scripts": {
@@ -44,16 +44,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarkistlt/mongoose-schema-to-graphql.git"
+    "url": "https://github.com/SpitchLingware/mongoose-schema-to-graphql"
   },
   "bugs": {
-    "url": "https://github.com/sarkistlt/mongoose-schema-to-graphql/issues"
+    "url": "https://github.com/SpitchLingware/mongoose-schema-to-graphql/issues"
   },
   "homepage": "https://github.com/sarkistlt/mongoose-schema-to-graphql#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "peerDependencies": {
     "graphql": ">=0.7.1",
-    "mongoose": "^4.11.7"
+    "mongoose": "^6.0.0"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
@@ -79,7 +82,7 @@
     "jest": "^20.0.4",
     "regenerator-runtime": "^0.11.0",
     "graphql": ">=0.7.1",
-    "mongoose": "^4.11.7"
+    "mongoose": "^6.0.0"
   },
   "jest": {
     "verbose": true,
